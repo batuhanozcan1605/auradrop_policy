@@ -1,0 +1,159 @@
+# AuraDrop Gizlilik Politikası
+
+**Son güncelleme:** 30 Haziran 2026
+
+## 1. Veri Sorumlusu
+
+Bu Gizlilik Politikası, AuraDrop uygulamasını ("Uygulama") işleten veri sorumlusu tarafından hazırlanmıştır. 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında veri sorumlusu sıfatıyla, aşağıda belirtilen kişisel verilerinizi işlemekteyiz.
+
+**İletişim:** info@pursula.com
+
+---
+
+## 2. Hangi Verileri Topluyoruz?
+
+### 2.1 Hesap Verileri
+- **E-posta adresi** — parolasız giriş (tek kullanımlık 6 haneli kod / OTP) ya da sosyal giriş yoluyla alınır
+- **Sosyal giriş kimliği** — Google veya Apple ile giriş yaptığınızda ilgili sağlayıcıdan paylaşılan e-posta adresi ve (varsa) ad bilgisi; parolanız bizimle paylaşılmaz
+
+### 2.2 Profil Verileri
+- Cinsiyet ve yaş grubu (kişiselleştirme amaçlı, onboarding sırasında alınır)
+- Dil tercihi (TR/EN)
+
+### 2.3 Görsel Veriler *(özel nitelikli olabilir)*
+- **Kıyafet fotoğrafları:** Dolap özelliği için yüklenen kıyafet/kombin görselleri
+- **Kişisel fotoğraflar:** Sanal deneme (Ayna) özelliği için yüklenen yüz ve/veya vücut fotoğrafları
+- **Renk paleti oluşturmak için yüklenen görseller:** Drop özelliğinde kullanılan referans görseller
+
+> Yüz ve vücut içeren fotoğraflar biyometrik veri niteliği taşıyabileceğinden KVKK md. 6 kapsamında **özel nitelikli kişisel veri** olarak işlenir ve yalnızca açık rızanızla işlenir.
+
+### 2.4 Cihaz ve Kullanım Verileri
+- Cihaz kimliği (UUID) — misafir kullanıcılar için oturum sürekliliği (`X-Device-Id`)
+- Bildirim tokeni (FCM / APNs) — push bildirimleri için
+- Uygulama içi etkileşim ve kullanım verileri
+
+### 2.5 Ticari ve Abonelik Verileri
+- Tıklanan ürün affiliate linkleri ve zaman damgaları (komisyon takibi için)
+- Kaydedilen / denenmek istenen ürünler (dolap ve istek listesi)
+- Abonelik durumu (Pro / ücretsiz) — ödeme işlemi Apple App Store veya Google Play üzerinden yürütülür; **kart veya finansal bilgileriniz bizimle paylaşılmaz**, yalnızca abonelik durumu RevenueCat aracılığıyla doğrulanır
+
+---
+
+## 3. Verileri Nasıl Kullanıyoruz?
+
+| Amaç | Hukuki Dayanak (KVKK md. 5/6) |
+|---|---|
+| Renk paleti analizi ve ürün eşleştirme | Sözleşmenin ifası |
+| Dolap özelliği — kıyafet kesimi ve temiz ürün/flat-lay görseli oluşturma | Sözleşmenin ifası |
+| Sanal deneme — kıyafeti kullanıcı görselinde işleme | **Açık rıza** |
+| Hesap oluşturma ve oturum yönetimi (e-posta OTP / Google / Apple) | Sözleşmenin ifası |
+| Abonelik durumunun doğrulanması ve kota uygulanması | Sözleşmenin ifası |
+| Kişiselleştirilmiş ürün önerileri | Meşru menfaat |
+| Push bildirimleri gönderme | Açık rıza |
+| Affiliate komisyon takibi | Meşru menfaat |
+| Güvenlik, dolandırıcılık önleme ve yasal yükümlülükler | Kanunlarda açıkça öngörülmesi |
+
+---
+
+## 4. Yapay Zeka İşleme
+
+AuraDrop, görsel analiz ve içerik oluşturma için üçüncü taraf yapay zeka hizmetleri kullanır:
+
+- **OpenAI (gpt-4o):** Kıyafet tespiti, kategorizasyon ve renk paleti küratörlüğü
+- **OpenAI (gpt-image-2):** Temiz ürün/flat-lay görseli oluşturma ve sanal deneme renderlama
+- **fal.ai (FASHN):** Sanal deneme (try-on) görseli oluşturma için kullanılabilen alternatif işleme sağlayıcısı
+- **Anthropic (Claude):** Renk paleti küratörlüğü ve kombin önerileri (etkinleştirildiğinde)
+
+Görselleriniz bu hizmetlere yalnızca ilgili özelliği kullandığınızda aktarılır ve işlenir. **Görselleriniz hiçbir koşulda üçüncü taraf yapay zeka modellerinin eğitimi için kullanılmaz.** İlgili hizmet sağlayıcıların veri işleme koşulları için:
+- [OpenAI Gizlilik Politikası](https://openai.com/policies/privacy-policy)
+- [Anthropic Gizlilik Politikası](https://www.anthropic.com/legal/privacy)
+- [fal.ai Gizlilik Politikası](https://fal.ai/privacy)
+
+---
+
+## 5. Veri Saklama ve Silme
+
+| Veri Türü | Saklama Süresi |
+|---|---|
+| Hesap ve profil verileri | Hesap silinene kadar |
+| Kıyafet görselleri (Dolap) | Kullanıcı silene veya hesap kapatılana kadar |
+| Kişisel fotoğraflar (sanal deneme) | İşlem tamamlandıktan sonra **30 gün**, ardından otomatik silinir |
+| Drop referans görselleri | **7 gün**, ardından otomatik silinir |
+| Affiliate tıklama kayıtları | 2 yıl (komisyon uyuşmazlıkları için) |
+| Cihaz bildirim tokeni | Bildirim izni iptal edilene veya hesap silinene kadar |
+
+Hesabınızı sildiğinizde tüm kişisel verileriniz **30 gün** içinde sistemlerimizden kalıcı olarak silinir. Uygulama içi **"Cihaz verilerini sil"** seçeneği, cihaz üzerindeki yerel kayıtları ve görsel önbelleğini de temizler. Yasal saklama yükümlülüğü bulunan veriler bu sürenin istisnasıdır.
+
+---
+
+## 6. Veri Aktarımı
+
+Verileriniz aşağıdaki taraflarla, yalnızca belirtilen amaçlarla paylaşılabilir:
+
+| Alıcı | Amaç | Konum |
+|---|---|---|
+| Railway | Uygulama sunucusu, veritabanı (PostgreSQL/Redis) ve görsel depolama | ABD / Küresel (SCCs kapsamında) |
+| OpenAI | Yapay zeka görsel işleme | ABD (SCCs kapsamında) |
+| fal.ai | Sanal deneme görsel işleme | ABD (SCCs kapsamında) |
+| Anthropic | Yapay zeka palet/kombin önerisi | ABD (SCCs kapsamında) |
+| Google (Sign-In) / Apple (Sign in with Apple) | Kimlik doğrulama | Küresel |
+| Google Firebase (FCM) / Apple (APNs) | Push bildirimi iletimi | Küresel |
+| RevenueCat | Abonelik durumu doğrulama | ABD (SCCs kapsamında) |
+| Apple App Store / Google Play | Abonelik ödeme işlemleri | Küresel |
+| Serper / Google Shopping | Palete uyan ürünlerin aranması | ABD / Küresel |
+| Satıcı ve affiliate ağları | Affiliate link takibi | Türkiye / Küresel |
+| Resmi makamlar | Yasal yükümlülük | Türkiye |
+
+Yurt dışı aktarımlar KVKK md. 9 kapsamında Kurul kararlarına veya standart sözleşme maddelerine (SCCs) dayalı olarak gerçekleştirilir.
+
+---
+
+## 7. Güvenlik
+
+- Tüm veriler aktarım sırasında TLS ile şifrelenir (release derlemeleri yalnızca HTTPS)
+- Görsel dosyalar erişim kontrollü sunucu altyapısında saklanır
+- E-posta girişi parolasız OTP (tek kullanımlık kod) ile yapılır; **parola saklanmaz**
+- Sosyal girişte sağlayıcı kimlik tokeni sunucu tarafında doğrulanır
+- Sanal deneme için yüklenen yüz/vücut fotoğrafları işlem sonrası sınırlı süre içinde silinir
+
+---
+
+## 8. Misafir (Kayıtsız) Kullanıcılar
+
+Uygulamayı hesap oluşturmadan kullanabilirsiniz. Bu durumda verileriniz cihaz UUID'inize bağlanır. Hesap oluşturduğunuzda misafir verileriniz hesabınızla birleştirilir. Misafir olarak oluşturduğunuz verileri silmek için uygulama içi **"Cihaz verilerini sil"** seçeneğini kullanabilirsiniz.
+
+---
+
+## 9. KVKK Kapsamındaki Haklarınız
+
+6698 sayılı KVKK'nın 11. maddesi kapsamında aşağıdaki haklara sahipsiniz:
+
+- Kişisel verilerinizin işlenip işlenmediğini öğrenme
+- İşlenmişse buna ilişkin bilgi talep etme
+- İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme
+- Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme
+- Eksik veya yanlış işlenmiş olması halinde düzeltilmesini isteme
+- KVKK md. 7'de öngörülen koşullar çerçevesinde silinmesini veya yok edilmesini isteme
+- Düzeltme/silme işlemlerinin aktarılan üçüncü kişilere bildirilmesini isteme
+- Münhasıran otomatik sistemler vasıtasıyla analiz edilmesi sonucu aleyhinize bir sonucun ortaya çıkması halinde itiraz etme
+- Kanuna aykırı işleme nedeniyle zararınızın giderilmesini talep etme
+
+**Başvuru:** info@pursula.com adresine e-posta göndererek veya uygulama içi "Gizlilik ve Veri" menüsü aracılığıyla haklarınızı kullanabilirsiniz. Başvurulara en geç 30 gün içinde yanıt verilir.
+
+---
+
+## 10. Çocukların Gizliliği
+
+Uygulamamız 13 yaşın altındaki bireylere yönelik değildir ve bu bireylerden bilerek veri toplamayız. 13 yaşın altında olduğunu düşündüğünüz bir kullanıcıya ait veri fark ederseniz lütfen bizimle iletişime geçin.
+
+---
+
+## 11. Affiliate Şeffaflığı
+
+AuraDrop, ürün linklerini tıkladığınızda affiliate komisyonu kazanabilir. Bu bağlantılar uygulama içinde açıkça belirtilir. Affiliate takibi yalnızca tıklama kaydı tutmak amacıyla yapılır; ödeme veya kişisel finansal bilgilerinize erişilmez.
+
+---
+
+## 12. Politika Değişiklikleri
+
+Bu politikada önemli değişiklikler yapılması halinde uygulama içi bildirim ve/veya e-posta yoluyla önceden bilgilendirilirsiniz. Değişiklik sonrası uygulamayı kullanmaya devam etmeniz güncel politikayı kabul ettiğiniz anlamına gelir.
